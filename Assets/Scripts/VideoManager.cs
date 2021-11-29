@@ -17,8 +17,8 @@ public class VideoManager : MonoBehaviour {
         videoPlayer.clip = newvideo;
     }
 
-    IEnumerator PlayVideo(string videoName)
-    {
-        yield return new WaitForSeconds(.5f);
-    }
+    // IEnumerator PlayVideo(string videoName)
+    // {
+    //     yield return new WaitForSeconds(.5f);
+    // }
 }
