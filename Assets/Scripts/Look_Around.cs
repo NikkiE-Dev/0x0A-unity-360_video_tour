@@ -7,6 +7,7 @@ public class Look_Around : MonoBehaviour {
     public float speed = 3;
 
     // Update is called once per frame
+    // This function is used to rotate the camera 
     void Update () {
         if(Input.GetMouseButton(0))
         {

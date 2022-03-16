@@ -6,6 +6,7 @@ using UnityEngine;
 public class TextManager : MonoBehaviour
 {
     public GameObject TextBox;
+    // Toggles showing and hiding of text box
     public void ActivateTextBox()
     {
         if (TextBox.activeInHierarchy == false)

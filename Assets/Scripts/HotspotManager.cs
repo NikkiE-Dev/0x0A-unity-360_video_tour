@@ -12,6 +12,7 @@ public class HotspotManager : MonoBehaviour
     public GameObject Cantina;
     public GameObject Mezzanine;
 
+    //Displays the Living Room video
     public void OpenLivingRoom()
     {
         Cube.SetActive(false);
@@ -20,6 +21,7 @@ public class HotspotManager : MonoBehaviour
         LivingRoom.SetActive(true);
     }
 
+    //Displays the Cube video
     public void OpenCube()
     {
         LivingRoom.SetActive(false);
@@ -28,6 +30,7 @@ public class HotspotManager : MonoBehaviour
         Cube.SetActive(true);
     }
 
+    //Displays the Cantina video
     public void OpenCantina()
     {
         LivingRoom.SetActive(false);
@@ -36,6 +39,7 @@ public class HotspotManager : MonoBehaviour
         Cantina.SetActive(true);
     }
 
+    //Displays the Mezzanine video
     public void OpenMezzanine()
     {
         LivingRoom.SetActive(false);
