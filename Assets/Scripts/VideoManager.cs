@@ -7,18 +7,14 @@ public class VideoManager : MonoBehaviour {
 
 
     private VideoPlayer videoPlayer;
-
+    // Use this for initialization
     private void Start()
     {
         videoPlayer = GetComponent<VideoPlayer>();
     }
+    // This function is used to replace video playing on skybox
     public void SwapVideo(VideoClip newvideo)
     {
         videoPlayer.clip = newvideo;
     }
-
-    // IEnumerator PlayVideo(string videoName)
-    // {
-    //     yield return new WaitForSeconds(.5f);
-    // }
 }
